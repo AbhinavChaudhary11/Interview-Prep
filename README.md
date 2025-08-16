@@ -33,6 +33,61 @@ This app uses **[Vapi.ai](https://vapi.ai/)** for **voice-based conversation** a
 
 First, clone the repository:  
 
-```bash
+```
 git clone https://github.com/your-username/ai-interview-assistant.git
 cd ai-interview-assistant
+```
+
+Install dependencies:  
+
+```
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Run the development server:  
+
+```
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.  
+
+---
+
+## 🔑 Environment Variables  
+
+Create a `.env.local` file in the root directory and add your keys:  
+
+```
+VAPI_API_KEY=your_vapi_key_here
+GEMINI_API_KEY=your_gemini_key_here
+```
+
+---
+
+## 📦 Deployment  
+
+Easiest way: Deploy on **Vercel**.  
+
+```
+vercel
+```
+
+Docs: [Next.js Deployment](https://nextjs.org/docs/app/building-your-application/deploying)  
+
+---
+
+## 📌 Roadmap  
+
+- ✅ Basic voice interview flow  
+- ✅ AI-generated role-specific questions  
+- ⏳ Automated scoring & feedback  
+- ⏳ Custom interview scenarios  
+
+---
